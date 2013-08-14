@@ -62,7 +62,7 @@ For showing the results in `div.feed` tag you should activate the plugin
 ```
 ###Customizing breakingNews's Functionality
 
-breakingNews's options gives you a wide range of ability to control your breakingNews plugin. To learn more about what each of these options do, read the [documentation section](http://localhost/news-feed-jquery-plugin/#options).
+breakingNews's options gives you a wide range of ability to control your breakingNews plugin. To learn more about what each of these options do, read the [documentation section](http://mehral.com/projects/jquery-breakingnews/#options).
 
 
 
