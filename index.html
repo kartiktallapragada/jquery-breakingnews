@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<title>Breakings News with Ajax</title>
+	
+	<link rel="stylesheet" href="css/breakingNews.css">
+	<style>
+	.feed-title {
+		background: red;
+		float: left;
+		margin-top: -7px;
+		margin-left: -11px;
+		padding: 8px;
+		margin-right: 12px;
+		color: #fff;
+		border-right: 1px solid #ccc;
+	}
+	</style>
+</head>
+<body>
+
+<div class="feed"></div>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.breakingNews.min.js"></script>
+<script>
+	$('.feed').breakingNews({
+		url: 'http://developer.apple.com/news/rss/news.rss',
+		feedSize: {
+			height: '20px',
+			width: '920px'
+		},
+		numberToShow: 5,
+		refresh: 2000,
+		effect: 'tricker',
+		effectDuration: 50,
+		onComplete: function() {
+			$(this).prepend('<div class="feed-title" />');
+			$('.feed-title').html(arguments[0].responseData.feed.title);
+		}
+	});
+</script>
+</body>
+</html>
