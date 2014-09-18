@@ -67,4 +67,4 @@ breakingNews's options gives you a wide range of ability to control your breakin
 
 
 ## Demo
-[Demo](http://mehral.com/projects/jquery-breakingnews/#demo)
+[Demo](http://m3hrdadfi.github.io/jquery-bn/)
